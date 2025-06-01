@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Фотоархив</title>
+  <link href="https://fonts.googleapis.com/css2?family=Arsenal&family=Montserrat+Alternates&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="loaded">
+  <nav class="main-nav">
+    <div class="main-nav__logo">
+      <img src="logo.png" class="main-nav__logo-img" />
+      <span class="main-nav__logo-text">БЛОКАДА</span>
+    </div>    
+    <a href="index.html" class="main-nav__link">Главная</a>
+    <a href="article.html" class="main-nav__link">Статьи</a> 
+    <a href="photo.html" class="main-nav__link">Фотоархив</a>
+  </nav>
+
+  <header class="photo-archive__header">
+    <h1 class="photo-archive__title">Фотоархив</h1>
+  </header>
+  
+  <section class="photo-archive__gallery">
+    <div class="photo-archive__gallery-grid" id="galleryContainer"></div>
+  </section>
+  
+  <div class="photo-archive__lightbox" id="lightbox">
+    <span class="photo-archive__lightbox-close" id="lightboxClose">&times;</span>
+    <span class="photo-archive__lightbox-arrow photo-archive__lightbox-arrow--left" id="lightboxPrev">&#10094;</span>
+    <img src="" class="photo-archive__lightbox-img" id="lightboxImg" />
+    <span class="photo-archive__lightbox-arrow photo-archive__lightbox-arrow--right" id="lightboxNext">&#10095;</span>
+  </div>
+
+<footer class="footer">
+<div class="footer__content">
+  <p>© 2025 Блокада. Все права защищены.</p>
+  <p>Разработка и дизайн — Товескина Алиса, 2-ТИД-2</p>
+</div>
+</footer>
+<script src="script.js"></script>  
+</body>
+</html>
